@@ -4,8 +4,8 @@ import requests
 import instaloader
 
 # ===================== تنظیمات از GitHub Secrets =====================
-MANAGEMENT_BOT_TOKEN = os.environ["8908662225:AAHvrMSZv-Y_7VVLJAiyKnIbLACvqQbG1hY"]
-OWNER_CHAT_ID = str(os.environ["7288553100"])
+MANAGEMENT_BOT_TOKEN = os.environ["MANAGEMENT_BOT_TOKEN"]
+OWNER_CHAT_ID = str(os.environ["OWNER_CHAT_ID"])
 
 ACCOUNTS_FILE = "accounts.json"
 STATE_FILE = "state.json"
